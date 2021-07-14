@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    width: 100%;
+}
+
+.inicio-section{
+    background-image: url(../imagenes/menu/fondo-menu.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* menu desayuno */
+
+.desayunos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    border: 3px dashed black;
+    background-color: white;
+    margin-top: 120px;
+    font-size: 80px;
+    font-family: fantasy;
+}
+
+.titulo{
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+.plantilla-desayuno{
+
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    font-family: fantasy;
+}
+
+/* almuerzo */
+
+.almuerzo{
+    margin-top: 50px;
+    background-image: url(../imagenes/menu/desayuno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bebida {
+    margin-top: 50px;
+    background-image: url('../imagenes/menu/bebida.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-bebida {
+    margin-bottom: 70px;
+    border-radius: 20px;
+    margin-top: 80px;
+    background-color: black;
+    font-family: fantasy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}

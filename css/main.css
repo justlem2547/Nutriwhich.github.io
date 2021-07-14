@@ -1,0 +1,347 @@
+body {
+   margin: 0px;
+   padding: 0px;
+}
+:root {
+    --fuente1: 'Inter', sans-serif;
+    --fuente2:'Lobster', cursive; 
+}
+
+/* fuente 1  font-family: 'Inter', sans-serif;*/
+/* fuente 2 font-family: '*/
+
+header {
+    background-color: #262727;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    opacity: 1.0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 70px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* hover menu  */
+
+.menu a:hover{
+    color: slategray;
+    transition: 800ms;
+}
+/* primera seccion de la pagina */
+.principal{
+
+    display: flex;
+    justify-content: center;
+    background-image: url(../imagenes/fondo4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 725px;
+    border-bottom: 7px solid black;
+}
+
+.logo {
+    margin: 0px auto;
+    width: 376px;
+    height: 220px;
+    background-image: url(../imagenes/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eslogan{
+    color: white;
+    box-shadow: black;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+.container{
+    margin-top: 120px;
+}
+
+.container a {
+    font-size: 18px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 15px;
+    background-color: black;
+    text-decoration: none;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.container a:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    transition: 900ms;
+}
+
+/* seccion de mision vision */
+.titulo {
+    background: black;
+    color: #fff;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.container-plan {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenido{
+    width: 400px;
+    margin-left: 50px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+}
+
+.container-plan img {
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.ordenar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-image: url(../imagenes/fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-bottom: 5px solid black;
+}
+
+.titulo-pedidos {
+    font-size: 100px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.pedidos a{
+    font-size: 18px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 15px;
+    text-decoration: none;
+    border: 3px solid white;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+/* clientes */
+
+.clientes{
+    width: 100%;
+    height: 750px;
+}
+
+.container-clientes{
+    margin-top: 120px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    display: flex;
+    margin: 20px;
+    width: 600px;
+    height: 200px;
+    border: 6px dashed black;
+}
+
+.tarjeta img{
+    width: 170px;
+    height: 170px;
+    padding: 16px;
+    border-radius: 90px;
+
+}
+
+.contenido-tarjeta {
+    padding-top: 30px;
+    margin-left: 10px;
+    font-family: var(--fuente1);
+    
+}
+
+/* contactanos */
+
+.contactanos{
+    margin-top: 70px;
+    width: 100%;
+    height: 550px;
+    border-top: 5px solid black;
+}
+
+.container-contac{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+}
+
+.caja{
+    width: 700px;
+    height: 300px;
+    border: 2px solid black;
+}
+.caja h3{
+    text-align: center;
+    font-family: var(--fuente2);
+    font-size: 40px;
+}
+
+.caja p{
+    font-family: var(--fuente1);
+    text-align: justify;
+    padding: 20px;
+}
+
+.boton{
+    display: flex;
+    width: 160px;
+    margin: 0px auto;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.boton:hover{
+    background-color: black;
+    color: white;
+    transition: 900ms;
+}
+
+/* ubicacion y horario */
+
+.lugar{
+    background-image: url('../imagenes/horario2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width: 100%;
+    height: 700px;
+    margin-top: 130px;
+    border-top: 5px solid black;
+}
+
+.titulo-dos{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titulo-dos span{
+    color: black;
+}
+
+.container-lugar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.direccion{
+    border: 6px solid black;
+    background-color: white;
+    margin-right: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+.horario{
+    border: 6px solid black;
+    background-color: white;
+    margin-right: 30px;
+    width: 300px;
+    height: 200px;
+}
+.text-contenido{
+    text-align: center;
+    font-family: fantasy;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #262727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    margin-left: 20px;
+    color: white;
+    font-family: var(--fuente1);
+}
+
+/* iconos redes sociales */
+
+.redes-container {
+    padding-top: 15px;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.redes-container ul li {
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+
+.redes-container ul li a{
+    font-size: 30px;
+    color: white;
+}
